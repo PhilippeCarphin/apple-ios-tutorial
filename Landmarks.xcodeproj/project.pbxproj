@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5391F5B52D2127CB00C3D181 /* Build configuration list for PBXProject "Landmark" */;
+			buildConfigurationList = 5391F5B52D2127CB00C3D181 /* Build configuration list for PBXProject "Landmarks" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5391F5B52D2127CB00C3D181 /* Build configuration list for PBXProject "Landmark" */ = {
+		5391F5B52D2127CB00C3D181 /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5391F5DC2D2127CC00C3D181 /* Debug */,
