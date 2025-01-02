@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5391F5BA2D2127CB00C3D181 /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5391F5CA2D2127CC00C3D181 /* LandmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5391F5D42D2127CC00C3D181 /* LandmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391F5BA2D2127CB00C3D181 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391F5CA2D2127CC00C3D181 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391F5D42D2127CC00C3D181 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		5391F5BB2D2127CB00C3D181 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5391F5BA2D2127CB00C3D181 /* Landmark.app */,
-				5391F5CA2D2127CC00C3D181 /* LandmarkTests.xctest */,
-				5391F5D42D2127CC00C3D181 /* LandmarkUITests.xctest */,
+				5391F5BA2D2127CB00C3D181 /* Landmarks.app */,
+				5391F5CA2D2127CC00C3D181 /* LandmarksTests.xctest */,
+				5391F5D42D2127CC00C3D181 /* LandmarksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5391F5B92D2127CB00C3D181 /* Landmark */ = {
+		5391F5B92D2127CB00C3D181 /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5391F5DE2D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "Landmark" */;
+			buildConfigurationList = 5391F5DE2D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
 				5391F5B62D2127CB00C3D181 /* Sources */,
 				5391F5B72D2127CB00C3D181 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				5391F5BC2D2127CB00C3D181 /* Landmark */,
 			);
-			name = Landmark;
+			name = Landmarks;
 			packageProductDependencies = (
 			);
 			productName = Landmark;
-			productReference = 5391F5BA2D2127CB00C3D181 /* Landmark.app */;
+			productReference = 5391F5BA2D2127CB00C3D181 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5391F5C92D2127CC00C3D181 /* LandmarkTests */ = {
+		5391F5C92D2127CC00C3D181 /* LandmarksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5391F5E12D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarkTests" */;
+			buildConfigurationList = 5391F5E12D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
 			buildPhases = (
 				5391F5C62D2127CC00C3D181 /* Sources */,
 				5391F5C72D2127CC00C3D181 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				5391F5CD2D2127CC00C3D181 /* LandmarkTests */,
 			);
-			name = LandmarkTests;
+			name = LandmarksTests;
 			packageProductDependencies = (
 			);
 			productName = LandmarkTests;
-			productReference = 5391F5CA2D2127CC00C3D181 /* LandmarkTests.xctest */;
+			productReference = 5391F5CA2D2127CC00C3D181 /* LandmarksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5391F5D32D2127CC00C3D181 /* LandmarkUITests */ = {
+		5391F5D32D2127CC00C3D181 /* LandmarksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5391F5E42D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarkUITests" */;
+			buildConfigurationList = 5391F5E42D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
 			buildPhases = (
 				5391F5D02D2127CC00C3D181 /* Sources */,
 				5391F5D12D2127CC00C3D181 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				5391F5D72D2127CC00C3D181 /* LandmarkUITests */,
 			);
-			name = LandmarkUITests;
+			name = LandmarksUITests;
 			packageProductDependencies = (
 			);
 			productName = LandmarkUITests;
-			productReference = 5391F5D42D2127CC00C3D181 /* LandmarkUITests.xctest */;
+			productReference = 5391F5D42D2127CC00C3D181 /* LandmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5391F5B92D2127CB00C3D181 /* Landmark */,
-				5391F5C92D2127CC00C3D181 /* LandmarkTests */,
-				5391F5D32D2127CC00C3D181 /* LandmarkUITests */,
+				5391F5B92D2127CB00C3D181 /* Landmarks */,
+				5391F5C92D2127CC00C3D181 /* LandmarksTests */,
+				5391F5D32D2127CC00C3D181 /* LandmarksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		5391F5CC2D2127CC00C3D181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5391F5B92D2127CB00C3D181 /* Landmark */;
+			target = 5391F5B92D2127CB00C3D181 /* Landmarks */;
 			targetProxy = 5391F5CB2D2127CC00C3D181 /* PBXContainerItemProxy */;
 		};
 		5391F5D62D2127CC00C3D181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5391F5B92D2127CB00C3D181 /* Landmark */;
+			target = 5391F5B92D2127CB00C3D181 /* Landmarks */;
 			targetProxy = 5391F5D52D2127CC00C3D181 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmark";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Release;
 		};
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5391F5DE2D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "Landmark" */ = {
+		5391F5DE2D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5391F5DF2D2127CC00C3D181 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5391F5E12D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarkTests" */ = {
+		5391F5E12D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5391F5E22D2127CC00C3D181 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5391F5E42D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarkUITests" */ = {
+		5391F5E42D2127CC00C3D181 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5391F5E52D2127CC00C3D181 /* Debug */,
