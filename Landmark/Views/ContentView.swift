@@ -1,17 +1,15 @@
-//
-//  ContentView.swift
-//  Landmark
-//
-//  Created by Philippe Carphin on 2024-12-29.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A view showing the list of landmarks.
+*/
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            LandmarkList()
-        }
+        LandmarkList()
     }
 }
 

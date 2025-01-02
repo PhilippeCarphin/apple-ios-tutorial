@@ -1,14 +1,15 @@
-//
-//  FavoriteButton.swift
-//  Landmark
-//
-//  Created by Philippe Carphin on 2024-12-29.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A button that acts as a favorites indicator.
+*/
 
 import SwiftUI
 
 struct FavoriteButton: View {
     @Binding var isSet: Bool
+
     var body: some View {
         Button {
             isSet.toggle()

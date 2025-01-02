@@ -1,15 +1,16 @@
-//
-//  LandmarkApp.swift
-//  Landmark
-//
-//  Created by Philippe Carphin on 2024-12-29.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+The top-level definition of the Landmarks app.
+*/
 
 import SwiftUI
 
 @main
-struct LandmarkApp: App {
+struct LandmarksApp: App {
     @State private var modelData = ModelData()
+
     var body: some Scene {
         WindowGroup {
             ContentView()

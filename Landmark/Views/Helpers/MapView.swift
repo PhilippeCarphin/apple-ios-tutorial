@@ -1,19 +1,20 @@
-//
-//  MapView.swift
-//  Landmark
-//
-//  Created by Philippe Carphin on 2024-12-29.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+A view that presents a map of a landmark.
+*/
 
 import SwiftUI
 import MapKit
 
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
+
     var body: some View {
         Map(position: .constant(.region(region)))
     }
-    
+
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: coordinate,
